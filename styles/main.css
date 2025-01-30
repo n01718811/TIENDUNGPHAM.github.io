@@ -5,19 +5,16 @@ body {
     padding: 0;
 }
 
-/* Header Styling */
-/* header {
-    /* text-align: center; 
-    padding: 20px;
+p.a::first-letter {
+    font-size: 2em;
     
-    color: white;
-} */
+    
+}
+
  .a{
     font-weight: bold;
- }
- .a::first-letter{
-    font-weight: 20em;
- }
+    font-size: 1.5em;
+ } 
 
 header img {
     float: left;
@@ -35,21 +32,10 @@ header h2 {
     font-size: 1.5em;
 }
 
-/* Main Content */
-main {
-    max-width: 800px;
-    /* margin: auto; */
-}
-
-/* Product List */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
+/* ul li {
     margin-bottom: 10px;
-}
+    margin-left: 0px;
+} */
 
 /* Links Styling */
 a {
