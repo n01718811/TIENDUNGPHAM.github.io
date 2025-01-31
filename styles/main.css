@@ -1,43 +1,36 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 20px;
     padding: 0;
 }
 
-p.a::first-letter {
+p.b::first-letter {
     font-size: 2em;
     
     
 }
 
- .a{
+ .b{
     font-weight: bold;
     font-size: 1.5em;
  } 
 
-header img {
+img {
     float: left;
     margin-right: 15px;
 }
 
-header h1 {
+h1 {
     color: orange;
     font-style: italic;
     text-shadow: 2px 2px black;
     font-size:2.5em;
 }
 
-header h2 {
+h2 {
     font-size: 1.5em;
 }
 
-/* ul li {
-    margin-bottom: 10px;
-    margin-left: 0px;
-} */
-
-/* Links Styling */
 a {
     text-decoration: none;
     font-weight: bold;
@@ -47,16 +40,15 @@ a {
 a:hover, a:focus {
     color: green;
 }
-
-/* Guarantee Text */
-strong {
+h3{
+    font-size: 1.5em;
     font-weight: bold;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     font-size: 0.8em;
     margin-top: 20px;
-    color: #555;
+    
 }
